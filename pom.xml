@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>my-cloud</groupId>
+  <artifactId>my-cloud</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>my-cloud</name>
+  <description>my-cloud</description>
+  <modules>
+    <module>my-cloud-eureka-client</module>
+    <module>my-cloud-eureka-server</module>
+    <module>my-cloud-service-ribbon</module>
+    <module>my-cloud-service-feign</module>
+    <module>my-cloud-service-zuul</module>
+    <module>my-cloud-config-server</module>
+    <module>my-cloud-config-client</module>
+    <module>my-cloud-server-zipkin</module>
+    <module>my-cloud-service-hi</module>
+    <module>my-cloud-service-miya</module>
+  </modules>
+</project>
